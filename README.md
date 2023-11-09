@@ -1,4 +1,24 @@
- ### EXPERIMENT -07 CONFIGURING NETWORK SERVER FOR CONNECTING GATEWAY AND END NODE 
+### EXPERIMENT -07 CONFIGURING NETWORK SERVER FOR CONNECTING GATEWAY AND END NODE 
+ 
+## Aim: To  configure  the Network server and end device for traferring data on the network
+## Components required: end node stm 32 development kit , dragino LPS8, network server 
+
+## Theory :
+When working with sensitive applications or files, saving progress on your local device is a start, but what if you lose access to your device? Network servers address this problem by hosting the files and programs most pertinent to the network and enabling access for consistent, real-time use. 
+
+As a result, personnel or network clients can instantly access important data or tools while also facilitating collaboration between users. Multiple users can make changes to the same program or document for continued development over the course of a project. Via a secure login, remote users can connect to the home network.
+<img height=20% width=40% src="https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/59db9b76-ddd5-4d6a-9075-8db233f5e479">
+
+
+In the above graphic, the circle represents an organization network where a network server facilitates collaboration and file sharing between network clients (devices).
+
+ The role of a network server, then, is to provide users with a set of services and access to resources on the network. These features include:
+
+Permissioned access and log-ins for network users Gateway access to the Internet for an organization Centralized location for network resources  Shared access to devices on the network like a printer or a scanner Hosts multi-user apps like email servers, web applications, or CRM
+
+## Procedure :
+
+## EXPERIMENT -07 CONFIGURING NETWORK SERVER FOR CONNECTING GATEWAY AND END NODE 
  
 ## Aim: To  configure  the Network server and end device for traferring data on the network
 ## Components required: end node stm 32 development kit , dragino LPS8, network server 
@@ -23,17 +43,13 @@ Permissioned access and log-ins for network users Gateway access to the Internet
  ![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/1bd434ca-1426-4102-8384-94473483543e)
  3. click on the add gateway 
  ![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/47c2e08d-6598-4437-8b07-f213d6f3b8ac)
-![Screenshot 2023-10-28 155505](https://github.com/NaveenM-IOT0804/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/117974950/9e13ec63-827c-4a03-8c37-9e6c43452b54)
-![Screenshot 2023-10-28 155617](https://github.com/NaveenM-IOT0804/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/117974950/f5ac1d25-5a26-4991-b82c-39e192bfd813)
-
-
+![WhatsApp Image 2023-10-28 at 15 52 46_56fb552d](https://github.com/BharathCSEIOT/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/122793480/7da5e5bc-d85a-4a77-b015-49cd930eb3d7)
+![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/a2e3ae58-6402-49e8-8f96-679059c1842c)
 4. click on the lora options , lora - frequency plan 
 5. click on channel s and create a new channel after which you can add a new end device 
-![image](https://github.com/vasanthkumarch/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/36288975/1fb72be5-e48d-4cde-a329-0cfb0d29070f)
+![WhatsApp Image 2023-10-28 at 16 14 35_0ed431da](https://github.com/BharathCSEIOT/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/122793480/1bc50b23-35ac-4da6-8e26-c696d350c2ad)
 6. add the attributesin the end device as  shown below 
-![Screenshot 2023-10-28 160112](https://github.com/NaveenM-IOT0804/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/117974950/856cea3c-0d5b-4eb4-82de-644a8e67f3b9)
-![Screenshot 2023-10-28 160128](https://github.com/NaveenM-IOT0804/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/117974950/1c0218cb-a77f-44e6-88b8-93863b51b4b0)
-
+![WhatsApp Image 2023-10-28 at 16 00 19_dfc834cd](https://github.com/BharathCSEIOT/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/122793480/57caabdd-0a90-4b74-9448-2fcebec29670)
 7.using AT commands configure end device in serial port utility
 AT Commands to set initially (Mandatory)
  AT+FDR // To do factory data reset
@@ -51,9 +67,7 @@ To set APP Key
 
 
 ## OUTPUT 
-
-![Screenshot 2023-10-28 160615](https://github.com/NaveenM-IOT0804/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/117974950/fc93be70-36f2-4751-9547-aea63a40ae06)
-![Screenshot 2023-10-28 160601](https://github.com/NaveenM-IOT0804/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/117974950/4b6786e3-4899-45fc-9cde-0bf1ee72cc1a)
+![278808587-57caabdd-0a90-4b74-9448-2fcebec29670](https://github.com/vikashsenthil21/EXPERIMENT-07-CONFIGURING-NETWORK-SERVER-FOR-CONNECTING-GATEWAY-AND-END-NODE-/assets/119433834/057f2513-f4d5-46bc-b627-6da050dcb131)
 
 
 
